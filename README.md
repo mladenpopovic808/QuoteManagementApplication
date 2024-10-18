@@ -44,6 +44,7 @@ The system consists of two web services:
 1. Compile and run the Main Service on `localhost` with the specified port (e.g., 8080).
 2. Access the application via `http://localhost:8080/quotes`.
 
+### Auxiliary Service
 
 1. Compile and run the Auxiliary Service on a different port (e.g., 8081).
 2. This service runs internally and provides a quote to the main service when requested.
